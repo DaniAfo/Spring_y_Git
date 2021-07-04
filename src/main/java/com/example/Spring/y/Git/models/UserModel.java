@@ -8,4 +8,13 @@ public class UserModel {
     private String apellidos;
     private String dni;
     private int numero;
+
+
+    public UserModel(long id, String nombre, String apellidos, String dni, int numero) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.dni = dni;
+        this.numero = numero;
+    }
 }
